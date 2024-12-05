@@ -6,6 +6,8 @@ const router = Router();
 
 const conective = require("./DB/conective.js");
 const service = require("./DB/service.js");
+const UserConstrollers = require("./controllers/controllerUsers.js")
+
 
 service.init(conective);
 
